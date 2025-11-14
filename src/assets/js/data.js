@@ -279,48 +279,49 @@ export const teamMembers = [
     bio: "Fayas is a seasoned full-stack developer with a strong focus on React and modern web technologies. As the team lead, he oversees development and ensures seamless project delivery.",
     linkedIn: "https://www.linkedin.com/in/fayas-p-a-328748142/",
   },
+
   {
     id: 2,
-    name: "Varun MS",
-    bio: "Varun specializes in Large Language Models (LLMs), artificial intelligence, and chatbot development. His innovative approach drives our AI-powered solutions.",
-    picture: Varun,  // Replace with correct image path
-    linkedIn: "https://www.linkedin.com/in/varun-m-s-ai-developer",
-  },
-  {
-    id: 3,
-    name: "Kiran NJ",
-    picture: Kiran,  // Replace with correct image path
-    bio: "Kiran is a frontend React developer dedicated to delivering pixel-perfect UI designs. He collaborates with the backend team to build cohesive, high-performance web applications.",
-    linkedIn: "https://www.linkedin.com/in/kiran-n-9600012b6/",
-  },
-  {
-    id: 4,
-    name: "Muhammed Hafiz",
-    picture: Hafiz,  // Replace with correct image path
-    bio: "Hafiz is a web designer with expertise in Figma and user experience design. He ensures that every project has a polished and professional look.",
-    linkedIn: "https://www.linkedin.com/in/imhaafz/",
-  },
-  {
-    id: 5,
-    name: "Sharuk Sageer",
-    picture: Sharuk,  // Replace with correct image path
-    bio: "Sharuk is a marketing genius with a proven track record in brand building and digital strategies. His expertise ensures maximum reach and impact for our projects.",
-    linkedIn: "https://www.linkedin.com/in/sharuk-m-s-5409272a8", // Add actual LinkedIn link if available
-  },
-  {
-    id: 6,
-    name: "Saleel Hisan",
-    picture: Saleel,  // Replace with correct image path
-    bio: "Saleel Hisan is a Node.js backend developer, ensuring scalable, efficient, and high-performance server-side solutions.",
-    linkedIn: "https://www.linkedin.com/in/saleelhisan/", // Add actual LinkedIn link if available
-  },
-  {
-    id: 7,
     name: "Sahal P",
     picture: Sahal,  // Replace with correct image path
     bio: "Sahal P is a backend developer with expertise in Django, FastAPI, PostgreSQL, Clean Architecture, Docker, and Microservices.",
     linkedIn: "https://www.linkedin.com/in/sahal-p-ba81a2260", // Add actual LinkedIn link if available
-  }
+  },
+  // {
+  //   id: 3,
+  //   name: "Varun MS",
+  //   bio: "Varun specializes in Large Language Models (LLMs), artificial intelligence, and chatbot development. His innovative approach drives our AI-powered solutions.",
+  //   picture: Varun,  // Replace with correct image path
+  //   linkedIn: "https://www.linkedin.com/in/varun-m-s-ai-developer",
+  // },
+  // {
+  //   id: 3,
+  //   name: "Kiran NJ",
+  //   picture: Kiran,  // Replace with correct image path
+  //   bio: "Kiran is a frontend React developer dedicated to delivering pixel-perfect UI designs. He collaborates with the backend team to build cohesive, high-performance web applications.",
+  //   linkedIn: "https://www.linkedin.com/in/kiran-n-9600012b6/",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Muhammed Hafiz",
+  //   picture: Hafiz,  // Replace with correct image path
+  //   bio: "Hafiz is a web designer with expertise in Figma and user experience design. He ensures that every project has a polished and professional look.",
+  //   linkedIn: "https://www.linkedin.com/in/imhaafz/",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Sharuk Sageer",
+  //   picture: Sharuk,  // Replace with correct image path
+  //   bio: "Sharuk is a marketing genius with a proven track record in brand building and digital strategies. His expertise ensures maximum reach and impact for our projects.",
+  //   linkedIn: "https://www.linkedin.com/in/sharuk-m-s-5409272a8", // Add actual LinkedIn link if available
+  // },
+  // {
+  //   id: 6,
+  //   name: "Saleel Hisan",
+  //   picture: Saleel,  // Replace with correct image path
+  //   bio: "Saleel Hisan is a Node.js backend developer, ensuring scalable, efficient, and high-performance server-side solutions.",
+  //   linkedIn: "https://www.linkedin.com/in/saleelhisan/", // Add actual LinkedIn link if available
+  // }
 ];
 
 

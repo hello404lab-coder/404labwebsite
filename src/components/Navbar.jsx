@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
-import { companyEmail, companyName, navLists } from "../utils/constants";
+import { companyEmail, companyName, navLists, companyLogo } from "../utils/constants";
 import { gsap } from "gsap";
 import HamburgerBtn from "./HamburgerBtn";
 
@@ -79,11 +79,23 @@ const Navbar = () => {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className={`flex ${isScrolled ? "h-12 md:h-14" : "h-16 md:h-16"} items-center justify-between transition-all duration-1000`}>
                     <div className="flex items-center text-center justify-center">
-                        <NavLink to="/" className="flex items-center justify-center text-center uppercase">
+                        <NavLink
+                            to="/"
+                            className="flex items-center justify-center text-center gap-2 uppercase"
+                        >
+                            {/* Logo */}
+                            <img
+                                src={companyLogo}
+                                alt="company logo"
+                                className="w-10 h-10 md:w-20 md:h-20 object-contain"
+                            />
+
+                            {/* Company Name */}
                             <h1 className="text-selWhite transition-all duration-700 ease-in-out text-lg md:text-3xl">
                                 {companyName}
                             </h1>
                         </NavLink>
+
                     </div>
                     <div className="">
                         <HamburgerBtn isMobileMenuOpen={isMobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
@@ -128,7 +140,7 @@ const Navbar = () => {
                                     onClick={handleNavLinkClick}
                                 >
                                     <span className="hover:text-green">{item.name}</span>
-                                    
+
                                 </NavLink>
                             ))}
                         </div>

@@ -58,7 +58,7 @@ const PageLoader = ({ onComplete }) => {
     <div className="min-h-screen bg-black flex items-center justify-center">
 
       <div className="flex items-center gap-3 justify-center">
-        <p className="text-white font-medium text-xl uppercase ">Cyfletech</p>
+        <p className="text-white font-medium text-xl uppercase ">404lab</p>
         
         <div className="relative h-10 w-24 md:w-36">
           <div ref={wordsRef} className="relative h-full flex items-center">

@@ -39,7 +39,7 @@ const OurTeam = () => {
             <div className="text-center mb-12">
                 <h2 className="section-heading tracking-wide ">Our Team</h2>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2  gap-8 max-w-7xl mx-auto">
                 {teamMembers.map((member, index) => (
                     <div
                         key={member.id}

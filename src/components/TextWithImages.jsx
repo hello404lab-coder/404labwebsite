@@ -50,9 +50,9 @@ const TextWithImages = () => {
         <h1 className="text-xl md:text-3xl lg:text-5xl leading-normal md:leading-loose ml-3 mx-0 md:mx-20 font-light">
         Hi,<br className='hidden md:block' /> we're
           {' '}
-        <span className='text-selRedDark font-semibold'>Cyfletech</span>
+        <span className='text-selRedDark font-semibold'>404lab</span>
           .<br />
-        we make tech work like magic Whether it’s <span className='text-green'>full-stack web development</span>, lightning-fast <span className='text-selOrange'>app solutions</span>, chatbots that actually get you, or <span className='text-selBlue'>AI tools</span> that don’t require a PhD to understand, we’ve got it all. Oh, and we turn data into <span className='text-selYellow'>business insights</span> so sharp, you'll feel like a genius. Let’s make something awesome together!</h1>
+        (formerly known as cyfletech). we make tech work like magic Whether it’s <span className='text-green'>full-stack web development</span>, lightning-fast <span className='text-selOrange'>app solutions</span>, chatbots that actually get you, or <span className='text-selBlue'>AI tools</span> that don’t require a PhD to understand, we’ve got it all. Oh, and we turn data into <span className='text-selYellow'>business insights</span> so sharp, you'll feel like a genius. Let’s make something awesome together!</h1>
       </div>
     </div>
   );

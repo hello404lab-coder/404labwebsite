@@ -1,12 +1,12 @@
-import Logo from '/logo.png'
+import Logo from '../assets/images/logo.png'
 import aboutBg from '../assets/images/about_bg.jpeg'
 import textSectionImage from '../assets/images/luxmoto.png'
 
 
 export const companyLogo = Logo;
-export const companyName = "Cyfletech";
+export const companyName = "404lab";
 export const companyPhoneNo = '9496715606'
-export const companyEmail = "info@cyfletech.com"
+export const companyEmail = "hello404lab@gmail.com"
 export const companyInsta = "https://www.instagram.com/__fayas_muthaleef__/"
 export const companyWhatsApp = "https://www.instagram.com/__fayas_muthaleef__/"
 export const textSectionImg = textSectionImage;
